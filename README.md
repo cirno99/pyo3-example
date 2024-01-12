@@ -20,9 +20,9 @@ maturin develop
 Then you should be able to run Python like so in the created virtual environment:
 
 ```python
-from ejemplo import check_integer
+from ejemplo import check_limit
 
-flag: bool = check_integer(3)
+flag: bool = check_limit(3)
 print(flag)
 ```
 
