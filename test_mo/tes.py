@@ -9,7 +9,7 @@ def test_check_limit():
 
 def test_prime1():
     # flag = check_limit(400)
-    flag = test_prime(100)
+    flag = test_prime(10000000)
     assert flag
 test_check_limit();
 test_prime1()

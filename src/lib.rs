@@ -10,8 +10,8 @@ fn check_limit(limit: i32) -> bool {
 }
 
 #[pyfunction]
-fn test_prime(num: i32) -> bool {
-    for v in prime(500) {
+fn test_prime(num: usize) -> bool {
+    for v in prime(num) {
         println!("p = {}", v);
     }
     true
