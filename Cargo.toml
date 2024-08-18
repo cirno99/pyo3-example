@@ -10,4 +10,6 @@ name = "ejemplo"
 crate-type = ["cdylib"]
 
 [dependencies]
+generator = "0.8.2"
+may = "0.3.46"
 pyo3 = "0.22.2"
